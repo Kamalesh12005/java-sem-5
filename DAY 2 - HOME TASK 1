@@ -1,13 +1,13 @@
 public class ReverseArray {
     public static void main(String[] args) {
-        // Sample array
-        int[] numbers = {1, 2, 3, 4, 5};
+        
+        int[] numbers = {5, 8 , 0 , 7 ,2};
 
-        // Call the reverse function
+        
         reverseArray(numbers);
     }
 
-    // Function to reverse and print the array
+    
     public static void reverseArray(int[] arr) {
         int n = arr.length;
         
