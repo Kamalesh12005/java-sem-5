@@ -1,16 +1,17 @@
- class main {
- public static void main(String [] args) {
-     try{
-         int [] mynumbers = {1,2,3};
-         System.out.println(mynumbers[10]);
-     }catch (Exception e){
-         System.out.println("Something goes wrong or error");
-     }
-     
-     {
-         System.out.println("the try catch is finished");
-     }
-     
- }    
- }
- 
+package program;
+import java.util.Scanner;
+//DIVIDE BY ZERO
+public class sample {
+    public static void main(String[] args){
+        Scanner in =new Scanner(System.in);
+        try {
+            System.out.println("Type the number:");
+            int number = in.nextInt();
+            int total = 10 / number;
+            System.out.println("Total:"+total);
+        }
+        catch (Exception e) {
+            System.out.println(e);
+        }
+        }
+    }
