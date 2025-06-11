@@ -1,0 +1,42 @@
+package Day3;
+
+public class SBI_Account {
+	private String AccHolder;
+	private int balance;
+	
+	public SBI_Account( String AccHolder, int balance)
+	{
+		this.AccHolder=AccHolder;
+		this.balance=balance;
+	}
+	public String getAccHolder()
+	{
+		return AccHolder;
+	}
+	public int getbalance()
+	{
+		return balance;
+	}
+	public void setAccHolder( String AccHolder)
+	{
+		this.AccHolder= AccHolder;
+	}
+	
+	public void deposite(int deposit)
+	{
+		if(balance>0)
+		{
+			balance+=deposit;
+			System.out.println("Deposited Amount: "+deposit);
+			System.out.println("Yopur Balance"+balance);
+		}
+		else
+		{   
+			System.out.println("Deposited Amount: "+deposit);
+			System.out.println("Your Balance"+balance);
+		}
+	}
+	
+		
+	
+}
