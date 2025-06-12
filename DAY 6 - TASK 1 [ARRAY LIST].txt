@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class ArrayListProgram {
+    public static void main(String[] args) {
+        ArrayList<Object> arr = new ArrayList<Object>();
+        arr.add("NAME : PETER");
+        arr.add("PLACE :COIMBATORE");
+        arr.add("MOB NO : 5577448833");
+        arr.add(0,"WORK : GOVT EMPLOYEE");
+        arr.add(1,"COUTRY : INDIA");
+
+        for (Object data : arr) {
+            System.out.println(data);
+        }
+    }
+}
