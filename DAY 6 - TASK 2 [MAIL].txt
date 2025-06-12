@@ -1,0 +1,20 @@
+package day6;
+
+import java.util.HashSet;
+
+public class mailprogram {
+     public static void main (String[] args) {
+         HashSet<String> email=new HashSet<>();
+        email.add("jonny287@gmail.com");
+        email.add("*PETER*77@GMAIL.com");
+        email.add("HeNrY😎@gmail.com");
+        email.add("benny @gmail.com");
+        email.add("rose@gmail.com");
+        
+        
+        
+        System.out.println(email);
+        
+     }
+
+		
