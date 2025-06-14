@@ -1,0 +1,13 @@
+create table course(
+  cname varchar(30),
+  cfee int(15),
+  cd int(10)
+);
+
+
+
+
+insert into course(cname,cfee,cd)
+values('Devops',12500,6),
+('AIML',32000,9),
+('BlockChain',50000,4);
