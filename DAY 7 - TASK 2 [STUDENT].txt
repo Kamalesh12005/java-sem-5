@@ -1,0 +1,12 @@
+create table student2(
+  name varchar(20),
+  age int(10),
+  rollno int(10)
+   );
+
+insert into student2(name,age,rollno)
+values('babu',10,232224),
+('jamsi',10,232212),
+('dansi',10,232224);
+
+
