@@ -1,0 +1,16 @@
+create table Students(
+  emid int(10),
+  name varchar(15),
+  subject varchar(10),
+  marks int(15)
+
+);
+
+insert into Students
+values(1, 'RAHUL', 'WEB DEVELOPMENT', 85),
+(2, 'ROSSI', 'FULL STACK', 85),
+(3, 'KITTY', 'PHOTOGRAPHY', 60),
+(4, 'JESSI', 'DEVELOPER', 74);
+
+select * from Students
+where marks>80;
