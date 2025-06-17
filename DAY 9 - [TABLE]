@@ -1,0 +1,15 @@
+create table Course(
+  id int(10),
+  name varchar(10),
+  course varchar(15),
+  fees int(15)
+);
+
+insert into Course
+values(1, 'RAHUL', 'WEB DEVELOPMENT', 5000),
+(2, 'ROSSI', 'FULL STACK', 6000),
+(3, 'KITTY', 'PHOTOGRAPHY', 7000),
+(4, 'JESSI', 'DEVELOPER', 4600);
+
+select * from Course
+order by fees asc;
