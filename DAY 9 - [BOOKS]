@@ -1,0 +1,15 @@
+create table Books(
+  idno int(10),
+  bookname varchar(20),
+  price int(10)
+);
+
+
+insert into Books
+values(1, 'SQL for Beginners', 3000),
+(2, 'JAVA Intro', 5000);
+
+
+select *
+from Books
+where bookname like 'S%s';
