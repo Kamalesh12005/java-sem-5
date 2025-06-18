@@ -1,4 +1,4 @@
-create table Books(
+ create table Books(
   idno int(10),
   bookname varchar(20),
   price int(10)
