@@ -1,0 +1,9 @@
+mysql> use employee
+Database changed
+mysql> select * from EMPLOYEES
+    -> where salary>2000;
+
+
+
+mysql> select * from EMPLOYEES
+    -> where dept='developer';
