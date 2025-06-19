@@ -1,0 +1,7 @@
+mysql>select * 
+    ->from list
+    ->where price = min(price);
+
+mysql>select * 
+    ->from list
+    ->where price = max(price);
