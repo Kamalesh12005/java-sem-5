@@ -1,0 +1,29 @@
+package JDBCCONNECTIVITY; 
+
+import java.sql.*; 
+
+public class jdbcmain { 
+
+               public static void main(String[] args) throws Exception { 
+
+                       //Class.forName("com.mysql.cj.jdbc.Driver"); 
+
+                       String Url="jdbc:mysql://localhost:3306/kgcas"; 
+                       String username="root"; 
+                       String password="Kgisl@123"; 
+
+                       Connection connect=DriverManager.getConnection(Url, username, password);  
+                       System.out.println("Driver Loaded"); 
+
+                       Statement st=connect.createStatement(); 
+
+                       String sql = "create table course(cid int,cname varchar(20))"; 
+                        int val=st.executeUpdate(sql); 
+
+                System.out.println("Insert"+" "+val+"rows"); 
+                String sql = "insert into course values(01,'FSD')"; 
+    int val=st.executeUpdate(sql); 
+        System.out.println("Insert"+" "+val+"rows"); 
+               } 
+
+}
