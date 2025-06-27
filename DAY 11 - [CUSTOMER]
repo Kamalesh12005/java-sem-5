@@ -1,0 +1,9 @@
+SELECT Customers.customer_id, Customers.first_name, Orders.amount 
+FROM Customers 
+JOIN Orders 
+ON Customers.customer_id = Orders.customer; 
+
+SELECT columns_from_both_tables 
+FROM table1 
+JOIN table2 
+ON table1.column1 = table2.column2
