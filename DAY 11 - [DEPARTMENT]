@@ -1,0 +1,5 @@
+select sname,sdep 
+from student1 
+where mark=(select max(mark) 
+              from Sdep 
+              );
