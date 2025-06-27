@@ -1,0 +1,15 @@
+create table sdep(  
+  sname varchar(20),  
+  mark int(10),  
+  rollno int(10)  
+   );  
+
+insert into sdep(sname,mark,rollno)  
+values('sneha',60,232224),  
+('rossi',78,232212),  
+('messi',90,232224), 
+
+
+select* 
+from student1 left outer join Sdep 
+On student1.sname=Sdep.sname;
